@@ -36,8 +36,9 @@ change your rights to use your own Contributions for any other purpose.
 
 You can download the CLA here:
 
- - [Contributor License Agreement](** TBA **)
-
+ - [Contributor License Agreement - pdf](https://github.com/ibmruntimes/spelk/blob/master/Spelk-CLA.pdf?raw=true)
+ - [Contributor License Agreement - odt](https://github.com/ibmruntimes/spelk/blob/master/Spelk-CLA.odt?raw=true)
+ 
 If you are an IBMer, please contact us directly as the contribution process is
 slightly different.
 
