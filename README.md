@@ -23,7 +23,7 @@ Update [spark home]/conf/spark-defaults.conf eg.
 
 
  
-**Enable the Elasticsearh sink**
+**Enable the Elasticsearch sink**
 
 Update metrics.properties in [spark home]/conf/metrics.properties eg.
 
