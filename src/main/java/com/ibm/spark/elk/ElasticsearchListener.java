@@ -25,8 +25,8 @@ import java.net.HttpURLConnection;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.apache.spark.JavaSparkListener;
 import org.apache.spark.SparkConf;
+import org.apache.spark.scheduler.SparkListener;
 import org.apache.spark.scheduler.SparkListenerApplicationEnd;
 import org.apache.spark.scheduler.SparkListenerApplicationStart;
 import org.apache.spark.scheduler.SparkListenerBlockManagerAdded;
@@ -62,7 +62,7 @@ import scala.Option;
  * A SparkListener to write Spark events to an Elasticsearch index
  *
  */
-public class ElasticsearchListener extends JavaSparkListener {
+public class ElasticsearchListener extends SparkListener {
 
 	private final Logger LOGGER = LoggerFactory.getLogger(ElasticsearchListener.class);
 

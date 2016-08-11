@@ -6,7 +6,7 @@ Spelk (spark-elk) is an add-on to Apache Spark (<http://spark.apache.org/>) to r
 
 Spelk is built using [Apache Maven](http://maven.apache.org/). You can specify the Spark and Scala versions.
 
-    mvn -Dspark.version=1.6.1 -Dscala.binary.version=2.10 clean package
+    mvn -Dspark.version=2.0.0 -Dscala.binary.version=2.11 clean package
 
 
 ## Configuration

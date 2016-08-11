@@ -21,8 +21,8 @@
 	<name>Spelk</name>
 
 	<properties>
-		<spark.version>1.6.1</spark.version>
-		<scala.binary.version>2.10</scala.binary.version>
+		<spark.version>2.0.0</spark.version>
+		<scala.binary.version>2.11</scala.binary.version>
 	</properties>
 
 	<dependencies>
@@ -68,7 +68,7 @@
 			<id>scala-2.10</id>
 			<activation>
 				<property>
-					<name>!scala-2.11</name>
+					<name>scala-2.10</name>
 				</property>
 			</activation>
 			<properties>
@@ -80,11 +80,11 @@
 			<id>scala-2.11</id>
 			<activation>
 				<property>
-					<name>scala-2.11</name>
+					<name>!scala-2.10</name>
 				</property>
 			</activation>
 			<properties>
-				<scala.version>2.11.7</scala.version>
+				<scala.version>2.11.8</scala.version>
 				<scala.binary.version>2.11</scala.binary.version>
 			</properties>
 		</profile>
