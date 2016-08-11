@@ -72,8 +72,7 @@ public class ElasticsearchConnector {
 				}
 
 				// Add our default mappings
-				// TODO the index name is hard coded in the mappings file so maybe we should use
-				// JsonGenerator here as the mappings file is now quite simple
+				// TODO maybe we should use JsonGenerator here as the mappings file is now quite simple
 				HttpURLConnection mappingsConnection = getConnection("PUT");
 				InputStream is = ElasticsearchConnector.class
 						.getResourceAsStream("mappings/ElasticsearchDefaultMappings.json");
